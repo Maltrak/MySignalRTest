@@ -1,0 +1,40 @@
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\HubConnnection.exe.config
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\HubConnnection.exe
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\HubConnnection.pdb
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Owin.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\obj\Debug\HubConnnection.csprojResolveAssemblyReference.cache
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\obj\Debug\HubConnnection.exe
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\HubConnnection\obj\Debug\HubConnnection.pdb
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\HubConnnection.exe.config
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\HubConnnection.exe
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\HubConnnection.pdb
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Owin.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\obj\Debug\HubConnnection.csprojResolveAssemblyReference.cache
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\obj\Debug\HubConnnection.exe
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\HubConnnection\obj\Debug\HubConnnection.pdb

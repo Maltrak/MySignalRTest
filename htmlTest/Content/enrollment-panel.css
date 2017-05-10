@@ -1,0 +1,1096 @@
+.hands-panel {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 825px;
+    height: 435px;
+    /*position: relative;*/
+    margin: auto;
+    padding: 20px;
+    border: 1px solid;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    font: normal 16px/1 "Times New Roman", Times, serif;
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    -webkit-box-shadow: 0 0 9px 4px rgba(0,0,0,0.5);
+    box-shadow: 0 0 9px 4px rgba(0,0,0,1);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.logo {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 250px;
+    height: 90px;
+    position: absolute;
+    top: 379px;
+    left: 536px;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: url("../Imagenes/spf.jpg");
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.leftHand {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 215px;
+    height: 263px;
+    position: absolute;
+    left: 100px;
+    top: 118px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: url("../Imagenes/manoIzquierda.png");
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+}
+
+.rightHand {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 215px;
+    height: 263px;
+    position: absolute;
+    left: 533px;
+    top: 116px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: url("../Imagenes/manoDerecha.png");
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+}
+
+#save {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 128px;
+    height: 50px;
+    position: absolute;
+    left: 101px;
+    top: 406px;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: default;
+}
+
+.save-disabled {
+    background: url("../Imagenes/botonGuardar-disabled.png");
+}
+
+.save-enabled {
+    background: url("../Imagenes/botonGuardar-enabled.png");
+}
+
+    .save-enabled:hover {
+        background: url("../Imagenes/botonGuardar-hover.png");
+    }
+
+.cancel {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 128px;
+    height: 50px;
+    position: absolute;
+    left: 247px;
+    top: 409px;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: url("../Imagenes/botonCancelar1.jpg");
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+}
+
+.f10 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 25px;
+    height: 75px;
+    position: absolute;
+    left: 130px;
+    top: 190px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+    -ms-transform: rotate(-18deg); /* IE 9 */
+    -webkit-transform: rotate(-18deg); /* Chrome, Safari, Opera */
+    transform: rotate(-18deg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.f9 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 25px;
+    height: 103px;
+    position: absolute;
+    left: 162px;
+    top: 152px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.f8 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 25px;
+    height: 112px;
+    position: absolute;
+    left: 200px;
+    top: 139px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+    -ms-transform: rotate(.3deg); /* IE 9 */
+    -webkit-transform: rotate(.3deg); /* Chrome, Safari, Opera */
+    transform: rotate(.3deg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.f7 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 26px;
+    height: 96px;
+    position: absolute;
+    left: 239px;
+    top: 157px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+    -ms-transform: rotate(9deg); /* IE 9 */
+    -webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
+    transform: rotate(9deg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.f6 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 26px;
+    height: 58px;
+    position: absolute;
+    left: 269px;
+    top: 237px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+    -ms-transform: rotate(21deg); /* IE 9 */
+    -webkit-transform: rotate(21deg); /* Chrome, Safari, Opera */
+    transform: rotate(21deg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.f1 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 25px;
+    height: 57px;
+    position: absolute;
+    left: 561px;
+    top: 235px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+    -ms-transform: rotate(-21deg); /* IE 9 */
+    -webkit-transform: rotate(-21deg); /* Chrome, Safari, Opera */
+    transform: rotate(-21deg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.f2 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 26px;
+    height: 95px;
+    position: absolute;
+    left: 591px;
+    top: 155px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+    -ms-transform: rotate(-9deg); /* IE 9 */
+    -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
+    transform: rotate(-9deg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.f3 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 25px;
+    height: 113px;
+    position: absolute;
+    left: 631px;
+    top: 136px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+    -ms-transform: rotate(.2deg); /* IE 9 */
+    -webkit-transform: rotate(.2deg); /* Chrome, Safari, Opera */
+    transform: rotate(.2deg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.f4 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 25px;
+    height: 102px;
+    position: absolute;
+    left: 669px;
+    top: 150px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.f5 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 25px;
+    height: 73px;
+    position: absolute;
+    left: 701px;
+    top: 188px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+    -ms-transform: rotate(18deg); /* IE 9 */
+    -webkit-transform: rotate(18deg); /* Chrome, Safari, Opera */
+    transform: rotate(18deg);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.no-captured-turn {
+    background-color: rgb(38, 19, 239);
+}
+
+.no-captured {
+    background-color: lightcoral;
+}
+
+.captured{
+    background-color:greenyellow;
+}
+
+.captured-missing{
+    background-color:red;
+}
+
+.captured-verify{
+    background-color:green;
+}
+
+    .no-captured:hover {
+        background-color: rgb(38, 19, 239);
+    }
+
+
+.no-captured-disable {
+    display: none;
+    pointer-events: none;
+}
+
+.nfiq1 {
+    background: url("../Imagenes/nfiq1.png");
+}
+
+.nfiq2 {
+    background: url("../Imagenes/nfiq2.png");
+}
+
+.nfiq3 {
+    background: url("../Imagenes/nfiq3.png");
+}
+
+.nfiq4 {
+    background: url("../Imagenes/nfiq4.png");
+}
+
+.nfiq5 {
+    background: url("../Imagenes/nfiq5.png");
+}
+
+.absence {
+    background: url("../Imagenes/absence.png");
+}
+
+    .absence:hover {
+        background: url("../Imagenes/absenceHover.png");
+        background-repeat: no-repeat;
+    }
+
+.absence-disable {
+    display: none;
+}
+
+.q-title {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 145px;
+    position: absolute;
+    left: 715px;
+    top: 345px;
+    border: none;
+    font: normal normal bold 16px/1 Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    text-align: right;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.q1-title {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 95px;
+    position: absolute;
+    left: 726px;
+    top: 370px;
+    border: none;
+    font: normal normal 11px/1 Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    text-align: right;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.q2-title {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 95px;
+    position: absolute;
+    left: 726px;
+    top: 388px;
+    border: none;
+    font: normal normal 11px/1 Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    text-align: right;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.q3-title {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 95px;
+    position: absolute;
+    left: 726px;
+    top: 406px;
+    border: none;
+    font: normal normal 11px/1 Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    text-align: right;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.q4-title {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 95px;
+    position: absolute;
+    left: 726px;
+    top: 424px;
+    border: none;
+    font: normal normal 11px/1 Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    text-align: right;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.q5-title {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 95px;
+    position: absolute;
+    left: 726px;
+    top: 442px;
+    border: none;
+    font: normal normal 11px/1 Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,1);
+    text-align: right;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.q1 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 827px;
+    top: 368px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 16px 16px;
+    background-size: 16px 16px;
+}
+
+.q2 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 827px;
+    top: 386px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 16px 16px;
+    background-size: 16px 16px;
+}
+
+.q3 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 827px;
+    top: 404px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 16px 16px;
+    background-size: 16px 16px;
+}
+
+.q4 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 827px;
+    top: 422px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 16px 16px;
+    background-size: 16px 16px;
+}
+
+.q5 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 827px;
+    top: 440px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 16px 16px;
+    background-size: 16px 16px;
+}
+
+.f10-menu {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 107px;
+    top: 146px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+}
+
+.f9-menu {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 140px;
+    top: 103px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+}
+
+.f8-menu {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 193px;
+    top: 88px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+}
+
+.f7-menu {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 246px;
+    top: 106px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+}
+
+.f6-menu {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 284px;
+    top: 190px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+}
+
+.f1-menu {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 539px;
+    top: 190px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+}
+
+.f2-menu {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 577px;
+    top: 108px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+}
+
+.f3-menu {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 628px;
+    top: 88px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+}
+
+.f4-menu {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 683px;
+    top: 105px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+}
+
+.f5-menu {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 716px;
+    top: 143px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    cursor: pointer;
+}
+
+#fp-image {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 155px;
+    left: 335px;
+    border: none;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background-position: auto auto;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+}
+
+#LH, #RH {
+    background: url("../Imagenes/handAbcense.png");
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+}
+
+#LH {
+    left: 193px;
+    top: 380px;
+}
+
+#RH {
+    top: 380px;
+    left: 628px;
+}
+
+.pulse {
+    -webkit-animation: pulsate 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -ms-animation: pulsate 2s;
+    -ms-animation-iteration-count: infinite;
+    -moz-animation: pulsate 2s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: pulsate 2s;
+    -o-animation-iteration-count: infinite;
+    animation: pulsate 2s;
+    animation-iteration-count: infinite;
+    z-index: 999;
+}
+
+
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 1.0;
+    }
+
+    25% {
+        opacity: 0.0;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    75% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-moz-keyframes pulsate {
+    0% {
+        opacity: 1.0;
+    }
+
+    25% {
+        opacity: 0.0;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    75% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-ms-keyframes pulsate {
+    0% {
+        opacity: 1.0;
+    }
+
+    25% {
+        opacity: 0.0;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    75% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-o-keyframes pulsate {
+    0% {
+        opacity: 1.0;
+    }
+
+    25% {
+        opacity: 0.0;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    75% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes pulsate {
+    0% {
+        opacity: 1.0;
+    }
+
+    25% {
+        opacity: 0.0;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    75% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+#pulseEffect {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(38, 19, 239);
+    float: left;
+}
+
+#pulseInstruction, #lblInstruction {
+    float: left;
+}
+
+#specialE {
+    float: right;
+}

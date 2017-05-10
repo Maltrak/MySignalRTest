@@ -1,0 +1,40 @@
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\SignalRServer.dll.config
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\SignalRServer.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\SignalRServer.pdb
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Microsoft.Owin.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Microsoft.Owin.Security.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Newtonsoft.Json.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Owin.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Microsoft.Owin.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Microsoft.Owin.Security.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\bin\Newtonsoft.Json.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\obj\Debug\SignalRServer.csprojResolveAssemblyReference.cache
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\obj\Debug\SignalRServer.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\SignalRServer\obj\Debug\SignalRServer.pdb
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\SignalRServer.dll.config
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\SignalRServer.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\SignalRServer.pdb
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Microsoft.Owin.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Microsoft.Owin.Security.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Newtonsoft.Json.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Owin.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Microsoft.Owin.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Microsoft.Owin.Security.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\bin\Newtonsoft.Json.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\obj\Debug\SignalRServer.csprojResolveAssemblyReference.cache
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\obj\Debug\SignalRServer.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\samples\SignalRServer\obj\Debug\SignalRServer.pdb

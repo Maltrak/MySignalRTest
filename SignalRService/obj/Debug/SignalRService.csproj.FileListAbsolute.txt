@@ -1,0 +1,54 @@
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\SignalRService.exe.config
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\SignalRService.exe
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\SignalRService.pdb
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.Owin.Cors.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.Owin.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Owin.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\System.Web.Cors.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.Owin.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.Owin.Cors.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\obj\Debug\SignalRService.exe
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\obj\Debug\SignalRService.pdb
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\SignalRService\obj\Debug\SignalRService.csprojResolveAssemblyReference.cache
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\SignalRService.exe.config
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\SignalRService.exe
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\SignalRService.pdb
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.Owin.Cors.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.Owin.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Owin.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\System.Web.Cors.dll
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.Owin.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.Owin.Cors.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\obj\Debug\SignalRService.csprojResolveAssemblyReference.cache
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\obj\Debug\SignalRService.exe
+C:\Users\jose.salazar\Documents\GitHub\SignalRTest\SignalRService\obj\Debug\SignalRService.pdb

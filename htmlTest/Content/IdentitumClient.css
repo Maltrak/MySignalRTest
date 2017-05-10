@@ -1,0 +1,244 @@
+﻿body {
+}
+
+.IdentitumClientControlEnroll {
+    height: 460px;
+    width: 600px;
+    display: block;
+}
+
+.IdentitumClientControlVerify {
+    width: 140px;
+    height: 180px;
+    display: block;
+}
+
+.CaptureForm {
+}
+
+.EnrollForm {
+    background-color: lightgray;
+    display: block;
+}
+
+
+    .EnrollForm #Titulo {
+        background: url('../Imagenes/Identitum/tituloManos.png');
+        background-size: contain;
+        height: 43px;
+        width: 240px;
+        display: inline-block;
+        float: left;
+        margin-top: 5px;
+    }
+
+
+
+    .EnrollForm #LeftHand {
+        background-image: url('../Imagenes/Identitum/manoIzquierda.png');
+        background-size: contain;
+        width: 218px;
+        height: 272px;
+        display: inline-block;
+        float: left;
+    }
+
+    .EnrollForm #RigthHand {
+        background-image: url('../Imagenes/Identitum/manoDerecha.png');
+        background-size: contain;
+        width: 218px;
+        height: 272px;
+        display: block;
+        margin-right: 20px;
+        margin-left: 250px;
+    }
+
+    .EnrollForm #CapureFormActions {
+        display: inline-block;
+        float: left;
+        width: 170px;
+        height: 50px;
+    }
+
+    .EnrollForm #CapureFormInstructions {
+        display: block;
+        float: right;
+        width: 280px;
+        height: 100px;
+        margin-right: -250px;
+    }
+
+        .EnrollForm #CapureFormInstructions p {
+            display: inline;
+        }
+
+        .EnrollForm #CapureFormInstructions span {
+            display: inline-block;
+            min-width: 100px;
+        }
+
+        .EnrollForm #CapureFormInstructions img {
+            max-width: 23px;
+            max-height: 24px;
+        }
+
+
+    .EnrollForm #F10 {
+        float: left;
+        margin-left: 35px;
+        margin-top: 65px;
+    }
+
+    .EnrollForm #F9 {
+        float: left;
+        margin-left: 0px;
+        margin-top: 42px;
+    }
+
+    .EnrollForm #F8 {
+        float: left;
+        margin-left: 2px;
+        margin-top: 35px;
+    }
+
+    .EnrollForm #F7 {
+        float: left;
+        margin-left: 2px;
+        margin-top: 40px;
+    }
+
+    .EnrollForm #F6 {
+        display: inline-block;
+        float: left;
+        margin-left: 5px;
+        margin-top: 80px;
+    }
+
+    .EnrollForm #F5 {
+        float: left;
+        margin-left: -9px;
+        margin-top: 65px;
+    }
+
+    .EnrollForm #F4 {
+        float: left;
+        margin-left: 6px;
+        margin-top: 42px;
+    }
+
+    .EnrollForm #F3 {
+        float: left;
+        margin-left: 8px;
+        margin-top: 35px;
+    }
+
+    .EnrollForm #F2 {
+        float: left;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .EnrollForm #F1 {
+        display: inline-block;
+        float: left;
+        margin-left: 30px;
+        margin-top: 80px;
+    }
+
+.Finger {
+    width: 27px;
+    height: 24px;
+}
+
+.FingerNotEnabled {
+    pointer-events: none;
+}
+
+.NoCaptured {
+    background-image: url('../Imagenes/Identitum/Nocapturado.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.Captured {
+    background-image: url('../Imagenes/Identitum/capturado.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ForVerify {
+    background-image: url('../Imagenes/Identitum/check2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Missing {
+    background-image: url('../Imagenes/Identitum/Missing.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.CaptureFinger {
+}
+
+    .CaptureFinger #LogoLector {
+        background-image: url('../Imagenes/Identitum/WMH2.png');
+        width: 154px;
+        height: 108px;
+        display: inline-block;
+        float: left;
+    }
+
+    .CaptureFinger #MensajeLector {
+        width: 250px;
+        height: 67px;
+        display: block;
+        margin-right: 20px;
+        float: right;
+        font-weight: bold;
+    }
+
+    .CaptureFinger #MensajeCapturaFinger {
+        width: 400px;
+        height: 20px;
+        color: orange;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .CaptureFinger #CapureFingerActions {
+        width: 256px;
+        height: 50px;
+        display: inline-block;
+        float: left;
+        margin-top: 5px;
+    }
+
+.FingerDisplay {
+    background-image: url('../Imagenes/Identitum/number1.JPG');
+    background-size: contain;
+    width: 101px;
+    height: 153px;
+}
+
+.FingerDisplayCaptured {
+    background-image: url('../Imagenes/Identitum/finger2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+}
+
+
+.Logo {
+    background: url('../Imagenes/Identitum/spf.jpg');
+    width: 212px;
+    height: 56px;
+    background-size: contain;
+    display: block;
+    margin-right: 20px;
+    margin-left: 280px;
+    margin-top: 5px;
+}

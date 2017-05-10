@@ -1,0 +1,12 @@
+﻿  Restaurando paquetes NuGet.  
+  Para impedir que NuGet descargue paquetes durante la compilación, abra el cuadro de diálogo Opciones de Visual Studio, haga clic en el nodo del Administrador de paquetes y desactive 'Allow NuGet to download missing packages'. 
+  Feeds used:
+    C:\Users\jose.salazar\.nuget\packages\
+    https://api.nuget.org/v3/index.json
+    C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+  
+  Ya se han instalado todos los paquetes mostrados en 'C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\samples\PersistentConnectionSample\packages.config'.
+  stdafx.cpp
+  PersistentConnectionSample.cpp
+  PersistentConnectionSample.vcxproj -> C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\Debug\PersistentConnectionSample.exe
+  PersistentConnectionSample.vcxproj -> C:\Users\jose.salazar\Documents\Proyectos .Net\SignalR-Client-Cpp-dev\Debug\PersistentConnectionSample.pdb (Full PDB)

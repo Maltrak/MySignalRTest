@@ -1,0 +1,7 @@
+C:\Users\juan.gonzalez\Desktop\Proyectos .Net\BA.Identitum.Client.Web\bin\BA.Identitum.Client.Web.dll.config
+C:\Users\juan.gonzalez\Desktop\Proyectos .Net\BA.Identitum.Client.Web\bin\BA.Identitum.Client.Web.dll
+C:\Users\juan.gonzalez\Desktop\Proyectos .Net\BA.Identitum.Client.Web\bin\BA.Identitum.Client.Web.pdb
+C:\Users\juan.gonzalez\Desktop\Proyectos .Net\BA.Identitum.Client.Web\obj\Debug\BA.Identitum.Client.Web.csprojResolveAssemblyReference.cache
+C:\Users\juan.gonzalez\Desktop\Proyectos .Net\BA.Identitum.Client.Web\obj\Debug\BA.Identitum.Client.Web.g.resources
+C:\Users\juan.gonzalez\Desktop\Proyectos .Net\BA.Identitum.Client.Web\obj\Debug\BA.Identitum.Client.Web.dll
+C:\Users\juan.gonzalez\Desktop\Proyectos .Net\BA.Identitum.Client.Web\obj\Debug\BA.Identitum.Client.Web.pdb

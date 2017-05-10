@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Identitum Web Client</title>
+    <link href="Content/IdentitumClient.css" rel="stylesheet" />
+    <!--<link href="Content/jquery.modal.css" rel="stylesheet" />-->
+    <link href="Content/jquery.contextMenu.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+
+	<script src="Scripts/JS/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/JS/jquery.signalR-1.0.1.min.js"></script>
+ 
+    <!--script src="Scripts/jquery-1.9.1.min.js"></script-->
+    <!--script src="Scripts/jquery.signalR-2.2.1.min.js"></script-->
+	<!--script src="Scripts/jquery.signalR-1.0.1.min.js"></script-->    
+    <script src="Scripts/IdentitumClient.js"></script>
+    <script src="Content/jquery.contextMenu.min.js"></script>
+    <script src="Content/jquery.ui.position.min.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <!--<script src="Content/jquery.modal.js"></script>-->
+
+</head>
+<body>
+    <div class="container-fluid" >
+        <div>
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style2">Usuario:</td>
+                    <td class="auto-style3" colspan="6">
+                        <input id="txtUsuario" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">Supervisor</td>
+                    <td class="auto-style3" colspan="6">
+                        <input id="txtSupervisor" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">
+                        <input id="btnStart" type="button" value="Start" />
+                    </td>
+                    <td class="auto-style3">
+                        <!--<input id="btnSave" type="button" value="Save" /></td>-->
+                    <td class="auto-style3">Transacción</td>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td class="auto-style2" colspan="3">
+                        <select id="cboTransaction" name="cboTransaction">
+                            <option value="1">Empadronar usuario</option>
+                            <option value="2">Verificar usuario</option>
+                            <option value="6">Empadronar supervisor</option>
+                            <option value="7">Verificar supervisor</option>
+                            <option value="10">Eliminar usuario</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="ModalIdentitumClient" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <!--<div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Cliente Identitum</h4>
+                    </div>-->
+                    <div class="modal-body">
+                        <div id="IdentitumClientControl" class="IdentitumClientControlEnroll">
+                            <div>
+                                <p id="Feedback"></p>
+                            </div>
+                            <div class="CaptureForm">
+                                <div class="EnrollForm">
+                                    <div id="Titulo" />
+                                    <div class="Logo"></div>
+                                    <div id="LeftHand">
+                                        <div id="F10" class="Finger FingerNotEnabled context-menu-one"></div>
+                                        <div id="F9" class="Finger FingerNotEnabled context-menu-one"></div>
+                                        <div id="F8" class="Finger FingerNotEnabled context-menu-one"></div>
+                                        <div id="F7" class="Finger FingerNotEnabled context-menu-one"></div>
+                                        <div id="F6" class="Finger FingerNotEnabled context-menu-one"></div>
+                                    </div>
+                                    <div id="RigthHand">
+                                        <div id="F1" class="Finger FingerNotEnabled context-menu-one"></div>
+                                        <div id="F2" class="Finger FingerNotEnabled context-menu-one"></div>
+                                        <div id="F3" class="Finger FingerNotEnabled context-menu-one"></div>
+                                        <div id="F4" class="Finger FingerNotEnabled context-menu-one"></div>
+                                        <div id="F5" class="Finger FingerNotEnabled context-menu-one"></div>
+                                    </div>
+                                    <div id="CapureFormActions">
+                                        <button id="btnSendCaptureForm" type="button" class="btn btn-success">Guardar</button>
+                                        <button id="btnCancelCaptureForm" type="button" class="btn btn-danger">Cancelar</button>
+                                    </div>
+                                    <div id="CapureFormInstructions">
+                                        <p>
+                                            <img src="Imagenes/Identitum/Nocapturado.png" />
+                                            <span>Sin capturar</span>
+                                        </p>
+                                        <p>
+                                            <img src="Imagenes/Identitum/Missing.png" />
+                                            <span>Ausente</span>
+                                        </p>
+                                        <p>
+                                            <img src="Imagenes/Identitum/capturado.png" />
+                                            <span>Capturado</span>
+                                        </p>
+                                        <p>
+                                            <img src="Imagenes/Identitum/forverify.png" />
+                                            <span>Para verificar</span>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="CaptureFinger" style="display: none;">
+                                <div id="LogoLector"></div>
+                                <div id="MensajeLector">Mantenga presionado su dedo sobre el lector hasta que la toma haya sido satisfactoria</div>
+                                <div id="MensajeCapturaFinger">Esperando al lector de huellas...</div>
+                                <div id="FingerDisplay" class="FingerDisplay"></div>
+                                <div id="CapureFingerActions">
+                                    <button id="btnSaveCaptureFingerPrint" type="button" class="btn btn-success">Guardar</button>
+                                    <button id="btnCancelCaptureFingerPrint" type="button" class="btn btn-danger">Cancelar</button>
+                                </div>
+                                <div class="Logo"></div>
+                            </div>
+                            <div class="VerifyForm" style="display: none;">
+                                <div class="row">
+                                    <div class="col-sm-1"></div>
+                                    <div class="col-sm-10" align="center">
+                                        <div>Coloque su dedo en el lector.</div>
+                                        <div class="FingerDisplayCaptured">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-1"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-1"></div>
+                                    <div class="col-sm-10">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
